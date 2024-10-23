@@ -16,6 +16,7 @@ node{
          withCredentials([string(credentialsId: 'dockerHubPwd', variable: 'dockerHubPwd')]) {
                //sh "docker login -u surecode555 -p ${dockerHubPwd}"
                 //sh 'docker push surecode555/insure-me:1.0'
+                //
                }
     }
     
